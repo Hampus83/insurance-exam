@@ -173,6 +173,30 @@ h1, h2 {
     padding: 10% 25%;
 }
 
+.content .main .card {
+    width: 255px;
+    height: 310px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content .main .card article {
+    width: 235px;
+    height: 150px;
+}
+
+.content .main .card .children-background {
+    background-color: #C7DDEA;
+}
+
+.content .main .card .just-right-background {
+    background-color: #fab131;
+}
+
+.content .main .card .old-fart-background {
+    background-color: #f17949;
+}
+
 
 .content .tutorial {
     background-color: #fff;
