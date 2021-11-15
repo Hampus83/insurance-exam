@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+.content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.content .covered {
+    height: 540px;
+    background-color: #C7DDEA;
+    grid-column: 1 /  span 3;
+    grid-row: 1 / span 2;
+}
+
+.content .learn-more {
+    height: 270px;
+    background-color: #F17949;
+    grid-column: 4 / span 3;
+}
+
+.content .join-today {
+    height: 270px;
+    background-color: #FFB939;
+    grid-column: 4 / span 3;
+}
+
+.content .header {
+    grid-column: 2 / span 4;
+    grid-row: 3 / span 1;
+}
+
+.content .header nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.content .header nav * {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+
+.content .main {
+    height: 1300px;
+    background-color: #A9A19E;
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 6;
+}
+
+.content .main .top {
+    height: 50%;
+    background-color: #A9A19E;
+}
+
+.content .main .bottom {
+    height: 50%;
+    background-color: #fab131;
+}
+
+.content .tutorial {
+    background-color: #fff;
+    height: 340px;
+    grid-column: span 2;
+}
+
+.content .zero {
+    background-color: #C7DDEA;
+}
+
+.content .two {
+    background-color: #ebebeb;
+}
+
+.content .four {
+    background-color: #F17949;
+}
+
+.content footer {
+    height: 410px;
+    background-color: #777574;
+    grid-column: 1 / span 6;
+}
+
+.content footer .up {
+    background-color: #A9A19E;
+    height: 70px;
+}
+
