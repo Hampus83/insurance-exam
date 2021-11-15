@@ -8,6 +8,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #e5e5e5;
+    font-family: 'fira sans';
 }
 
 .content {
@@ -104,5 +105,10 @@ body {
     height: 70px;
     text-align: center;
     line-height: 0;
+    font-weight: 500;
+}
+
+.content footer .up img {
+    margin-bottom: -10px;
 }
 
