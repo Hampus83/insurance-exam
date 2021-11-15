@@ -37,6 +37,7 @@ body {
     grid-column: 4 / span 3;
 }
 
+
 .content .header {
     grid-column: 2 / span 4;
     grid-row: 3 / span 1;
@@ -54,6 +55,7 @@ body {
     padding: 10px;
 }
 
+
 .content .main {
     height: 1300px;
     background-color: #A9A19E;
@@ -70,6 +72,7 @@ body {
     height: 50%;
     background-color: #fab131;
 }
+
 
 .content .tutorial {
     background-color: #fff;
@@ -89,6 +92,7 @@ body {
     background-color: #F17949;
 }
 
+
 .content footer {
     height: 410px;
     background-color: #777574;
@@ -98,5 +102,7 @@ body {
 .content footer .up {
     background-color: #A9A19E;
     height: 70px;
+    text-align: center;
+    line-height: 0;
 }
 
