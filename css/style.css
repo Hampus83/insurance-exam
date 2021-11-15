@@ -148,6 +148,13 @@ h1, h2 {
 .content .main .bottom {
     height: 50%;
     background-color: #fab131;
+    text-align: center;
+    padding: 10% 25%;
+}
+.content .main .bottom h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
 }
 
 
