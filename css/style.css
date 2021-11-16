@@ -133,8 +133,12 @@ h1, h2 {
     margin: auto;
 }
 
-.content nav a:hover {
+.content nav .nav-active {
     color: #000000;
+}
+
+.content nav a:hover {
+    text-decoration: underline;
 }
 
 
