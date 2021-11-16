@@ -58,9 +58,9 @@ h1, h2 {
     font-size: 10px;
     font-weight: 700;
     border-radius: 50px;
-    padding: 0.9rem 2.8rem;
-    margin-left: -9rem;
-    margin-top: 2.5rem
+    padding: 14px 45px;
+    margin-left: -145px;
+    margin-top: 40px;
 }
 
 .content {
@@ -482,11 +482,17 @@ h1, h2 {
     color: rgba(255, 255, 255, 0.7)
 }
 
+.contact .form .form-right p {
+    font-size: 14px;
+}
+
 .contact .form .form-right :nth-child(2) {
     height: 40px;
     width: 335px;
     font-size: 14px;
     padding: 0.5rem;
+    margin-top: -10px;
+    margin-bottom: 15px;
 }
 
 .contact .form .form-right :nth-child(4) {
@@ -494,10 +500,13 @@ h1, h2 {
     width: 335px;
     font-size: 14px;
     padding: 0.5rem;
+    font-family: 'fira sans';
+    margin-top: -10px;
 }
 
 .contact .form .form-right button {
-    margin: 0;
+    margin: 30px 165px ;
+    align-self: flex-end;
 }
 
 
