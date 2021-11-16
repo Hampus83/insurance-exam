@@ -381,6 +381,24 @@ h1, h2 {
     grid-column: 1 / span 6;
 }
 
+.contact header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact header h1 {
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
+.contact header img {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
 
 
 
