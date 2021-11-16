@@ -361,6 +361,10 @@ h1, h2 {
     margin-bottom: -10px;
 }
 
+.home footer .up img, .home footer .up p {
+    opacity: 70%;
+}
+
 
 
 /*************
@@ -422,5 +426,36 @@ h1, h2 {
     right: 100px;
 }
 
+.contact .form {
+    width: 100%;
+    display: flex;
+}
+
+.contact .form .form-left {
+    width: 50%;
+    color: #ffffff;
+}
+
+.contact .form .form-left h1 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.contact .form .form-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.contact .form .form-right:nth-child(1) input {
+    height: 40px;
+}
 
 
