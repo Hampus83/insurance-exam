@@ -219,9 +219,28 @@ h1, h2 {
     position: absolute;
     top: -45px;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
+.content .main .cards .card:nth-child(1) figure img {
+    position: absolute;
+    top: 15px;
+    width: 36%;
+}
 
+.content .main .cards .card:nth-child(2) figure img {
+    position: absolute;
+    top: 15px;
+    width: 41%;
+}
+
+.content .main .cards .card:nth-child(3) figure img {
+    position: absolute;
+    top: 20px;
+    width: 60%;
+}
 
 .content .main .cards .card p {
     font-size: 11px;
