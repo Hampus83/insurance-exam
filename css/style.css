@@ -371,10 +371,13 @@ h1, h2 {
     background-image: url("/assets/map-contact.png");
 }
 
-.contact .footer {
+.contact footer {
+    background-color: #777574;
     height: 340px;
     grid-row: 5;
     grid-column: 1 / span 6;
 }
+
+
 
 
