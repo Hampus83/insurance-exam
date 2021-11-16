@@ -464,8 +464,10 @@ h1, h2 {
     color: rgba(255, 255, 255, 0.7)
 }
 
-.contact .form .form-right:nth-child(1) input {
+.contact .form .form-right :nth-child(2) {
     height: 40px;
+    width: 335px;
+    font-size: 28px;
 }
 
 
