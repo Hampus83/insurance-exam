@@ -187,8 +187,11 @@ h1, h2 {
     flex-direction: row;
     justify-content: center;
     padding: 0 4%;
+    color: rgba(0, 0, 0, 0.6);
 }
-.home .main .top > * {
+
+/* Left */
+.home .main .top aside {
     width: 50%;
     padding: 7%;
 }
@@ -198,10 +201,15 @@ h1, h2 {
 .home .main .top aside h1 {
     margin-top: 40px;
 }
+
+/* Right */
 .home .main .top p {
     font-size: 14px;
     margin-top: 40px;
     line-height: 24px;
+    font-weight: bold;
+    width: 45%;
+    padding: 7%;
 }
 
 /* Main section bottom */
@@ -215,7 +223,7 @@ h1, h2 {
 .home .main .bottom p {
     font-size: 14px;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: bold;
     color:rgba(0, 0, 0, 0.6);
 }
 
@@ -243,6 +251,30 @@ h1, h2 {
     border-radius: 5px;
 }
 
+.home .main .cards .card p {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-top: -0.5rem;
+    margin-bottom: 40px;
+    padding: 0 1.3rem;
+}
+
+.home .main .cards .card .children-background {
+    background-color: #C7DDEA;
+}
+
+.home .main .cards .card .just-right-background {
+    background-color: #fab131;
+}
+
+.home .main .cards .card .old-fart-background {
+    background-color: #f17949;
+}
+
+/* images */
 .home .main .cards .card figure {
     width: 235px;
     height: 150px;
@@ -272,28 +304,6 @@ h1, h2 {
     width: 60%;
 }
 
-.home .main .cards .card p {
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 18px;
-    color: rgba(0, 0, 0, 0.4);
-    text-align: center;
-    margin-top: -0.5rem;
-    margin-bottom: 40px;
-    padding: 0 1.3rem;
-}
-
-.home .main .cards .card .children-background {
-    background-color: #C7DDEA;
-}
-
-.home .main .cards .card .just-right-background {
-    background-color: #fab131;
-}
-
-.home .main .cards .card .old-fart-background {
-    background-color: #f17949;
-}
 
 /* Last section
     Tutorial     */
