@@ -13,7 +13,10 @@ body {
     font-family: 'fira sans';
 }
 
-/* GENERAL */
+/*************
+    GENERAL 
+**************/
+
 h1, h2 {
     font-family: 'Frank Ruhl Libre';
 }
@@ -69,7 +72,12 @@ h1, h2 {
 }
 
 
-/* HOME */
+/**********
+    HOME
+ **********/
+
+/* Covered */
+
 .home .covered {
     height: 540px;
     background-color: #C7DDEA;
@@ -103,13 +111,16 @@ h1, h2 {
     color: #ffffff;
 }
 
-
 .home .covered img {
     width: 285px;
     bottom: 0;
     right: 10px;
     position: absolute;
 }
+
+
+/* Learn More
+   Join Today */
 
 .home .learn-more {
     height: 270px;
@@ -148,6 +159,9 @@ h1, h2 {
     margin-top: 0;
 }
 
+
+/* Main section */
+
 .home .main {
     height: 1300px;
     background-color: #A9A19E;
@@ -165,6 +179,7 @@ h1, h2 {
     line-height: 2;
 }
 
+/* Main section top */
 .home .main .top {
     height: 50%;
     background-color: #A9A19E;
@@ -189,6 +204,7 @@ h1, h2 {
     line-height: 24px;
 }
 
+/* Main section bottom */
 .home .main .bottom {
     height: 50%;
     background-color: #fab131;
@@ -203,6 +219,7 @@ h1, h2 {
     color:rgba(0, 0, 0, 0.6);
 }
 
+/* Main section cards */
 .home .main .cards {
     padding: 0 5rem;
     width: 100%;
@@ -278,7 +295,8 @@ h1, h2 {
     background-color: #f17949;
 }
 
-
+/* Last section
+    Tutorial     */
 .home .tutorial {
     background-color: #fff;
     height: 340px;
@@ -324,7 +342,7 @@ h1, h2 {
     background-color: #F17949;
 }
 
-
+/* Footer */
 .home footer {
     height: 410px;
     background-color: #777574;
@@ -344,6 +362,10 @@ h1, h2 {
 }
 
 
+
+/*************
+    CONTACT
+ *************/
 
 .contact {
     background-color: #ffffff;
