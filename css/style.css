@@ -439,12 +439,20 @@ h1, h2 {
     color: white;
     width: 320px;
     height: 205px;
+    padding: 10px;
 }
 .contact .location .card h1 {
     font-weight: 900;
     font-size: 45px;
     margin: 0;
     padding: auto;
+    text-align: center;
+}
+.contact .location .card p {
+    padding-left: 13px;
+    padding-right: 140px;
+    margin: 0;
+    line-height: 24px;
 }
 
 .contact footer {
