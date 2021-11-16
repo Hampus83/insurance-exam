@@ -13,6 +13,7 @@ body {
     font-family: 'fira sans';
 }
 
+/* GENERAL */
 h1, h2 {
     font-family: 'Frank Ruhl Libre';
 }
@@ -38,7 +39,9 @@ h1, h2 {
     grid-template-columns: repeat(6, 1fr);
 }
 
-.content .covered {
+
+/* HOME */
+.home .covered {
     height: 540px;
     background-color: #C7DDEA;
     grid-column: 1 /  span 3;
@@ -49,7 +52,7 @@ h1, h2 {
     position: relative;
 }
 
-.content .covered h1 {
+.home .covered h1 {
     color: #000000;
     font-size: 45px;
     font-weight: 900;
@@ -59,7 +62,7 @@ h1, h2 {
     padding: 4rem 5rem 0 7rem;
 }
 
-.content .covered p {
+.home .covered p {
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
     font-weight: 500;
@@ -67,19 +70,19 @@ h1, h2 {
     padding: 0 8rem 0 7rem;
 }
 
-.content .covered span {
+.home .covered span {
     color: #ffffff;
 }
 
 
-.content .covered img {
+.home .covered img {
     width: 285px;
     bottom: 0;
     right: 10px;
     position: absolute;
 }
 
-.content .learn-more {
+.home .learn-more {
     height: 270px;
     background-color: #F17949;
     grid-column: 4 / span 3;
@@ -89,7 +92,7 @@ h1, h2 {
     justify-content: center;
 }
 
-.content .join-today {
+.home .join-today {
     height: 270px;
     background-color: #FFB939;
     grid-column: 4 / span 3;
@@ -99,7 +102,7 @@ h1, h2 {
     justify-content: center;
 }
 
-.content .learn-more h5, .content .join-today h5 {
+.home .learn-more h5, .home .join-today h5 {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: -0.02em;
@@ -108,7 +111,7 @@ h1, h2 {
     margin-bottom: 0;
 }
 
-.content .learn-more h2, .content .join-today h2 {
+.home .learn-more h2, .home .join-today h2 {
     color: #ffffff;
     font-size: 32px;
     font-weight: 900;
@@ -116,7 +119,7 @@ h1, h2 {
     margin-top: 0;
 }
 
-.content nav {
+.home nav {
     height: 70px;
     grid-column: 2 / span 4;
     grid-row: 3 / span 1;
@@ -124,7 +127,7 @@ h1, h2 {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.content nav a {
+.home nav a {
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
@@ -133,33 +136,33 @@ h1, h2 {
     margin: auto;
 }
 
-.content nav .nav-active {
+.home nav .nav-active {
     color: #000000;
 }
 
-.content nav a:hover {
+.home nav a:hover {
     text-decoration: underline;
 }
 
 
-.content .main {
+.home .main {
     height: 1300px;
     background-color: #A9A19E;
     grid-row: 4 / span 1;
     grid-column: 1 / span 6;
     position: relative;
 }
-.content .main h1 {
+.home .main h1 {
     color: #fff;
     font-size: 45px;
     font-weight: 900;
     line-height: 1;
 }
-.content .main p {
+.home .main p {
     line-height: 2;
 }
 
-.content .main .top {
+.home .main .top {
     height: 50%;
     background-color: #A9A19E;
     display: flex;
@@ -167,34 +170,37 @@ h1, h2 {
     justify-content: center;
     padding: 0 4%;
 }
-.content .main .top > * {
+.home .main .top > * {
     width: 50%;
     padding: 7%;
 }
-.content .main .top button {
+.home .main .top button {
     margin:0;
 }
-.content .main .top aside h1 {
+.home .main .top aside h1 {
     margin-top: 40px;
 }
-.content .main .top p {
+.home .main .top p {
     font-size: 14px;
     margin-top: 40px;
     line-height: 24px;
 }
 
-.content .main .bottom {
+.home .main .bottom {
     height: 50%;
     background-color: #fab131;
     text-align: center;
     padding: 10% 28%;
+    padding-top: 15%;
+}
+.home .main .bottom p {
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
     color:rgba(0, 0, 0, 0.6);
 }
 
-.content .main .cards {
+.home .main .cards {
     padding: 0 5rem;
     width: 100%;
     display: flex;
@@ -204,7 +210,7 @@ h1, h2 {
     bottom: 39%;
 }
 
-.content .main .card {
+.home .main .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,7 +223,7 @@ h1, h2 {
     border-radius: 5px;
 }
 
-.content .main .cards .card figure {
+.home .main .cards .card figure {
     width: 235px;
     height: 150px;
     position: absolute;
@@ -228,25 +234,25 @@ h1, h2 {
     overflow: hidden;
 }
 
-.content .main .cards .card:nth-child(1) figure img {
+.home .main .cards .card:nth-child(1) figure img {
     position: absolute;
     top: 15px;
     width: 36%;
 }
 
-.content .main .cards .card:nth-child(2) figure img {
+.home .main .cards .card:nth-child(2) figure img {
     position: absolute;
     top: 15px;
     width: 41%;
 }
 
-.content .main .cards .card:nth-child(3) figure img {
+.home .main .cards .card:nth-child(3) figure img {
     position: absolute;
     top: 20px;
     width: 60%;
 }
 
-.content .main .cards .card p {
+.home .main .cards .card p {
     font-size: 11px;
     font-weight: 700;
     line-height: 18px;
@@ -257,20 +263,20 @@ h1, h2 {
     padding: 0 1.3rem;
 }
 
-.content .main .cards .card .children-background {
+.home .main .cards .card .children-background {
     background-color: #C7DDEA;
 }
 
-.content .main .cards .card .just-right-background {
+.home .main .cards .card .just-right-background {
     background-color: #fab131;
 }
 
-.content .main .cards .card .old-fart-background {
+.home .main .cards .card .old-fart-background {
     background-color: #f17949;
 }
 
 
-.content .tutorial {
+.home .tutorial {
     background-color: #fff;
     height: 340px;
     grid-column: span 2;
@@ -281,14 +287,14 @@ h1, h2 {
     position: relative;
 }
 
-.content .tutorial h1 {
+.home .tutorial h1 {
     text-align: center;
     color: rgba(0, 0, 0, 0.8);
     font-size: 45px;
     font-weight: 900;
 }
 
-.content .tutorial h2 {
+.home .tutorial h2 {
     color: rgba(0, 0, 0, 0.4);
     font-size: 35px;
     font-weight: 900;
@@ -297,32 +303,32 @@ h1, h2 {
     left: 20px;
 }
 
-.content .tutorial p {
+.home .tutorial p {
     text-align: center;
     margin:0;
     font-weight: 500;
 }
 
-.content .zero {
+.home .zero {
     background-color: #C7DDEA;
 }
 
-.content .two {
+.home .two {
     background-color: #ebebeb;
 }
 
-.content .four {
+.home .four {
     background-color: #F17949;
 }
 
 
-.content footer {
+.home footer {
     height: 410px;
     background-color: #777574;
     grid-column: 1 / span 6;
 }
 
-.content footer .up {
+.home footer .up {
     background-color: #A9A19E;
     height: 70px;
     text-align: center;
@@ -330,7 +336,7 @@ h1, h2 {
     font-weight: 500;
 }
 
-.content footer .up img {
+.home footer .up img {
     margin-bottom: -10px;
 }
 
