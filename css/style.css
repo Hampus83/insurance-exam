@@ -184,6 +184,9 @@ h1, h2 {
     background-color: #fab131;
     text-align: center;
     padding: 10% 28%;
+    padding-top: 15%;
+}
+.content .main .bottom p {
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
