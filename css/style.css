@@ -467,7 +467,21 @@ h1, h2 {
 .contact .form .form-right :nth-child(2) {
     height: 40px;
     width: 335px;
-    font-size: 28px;
+    font-size: 14px;
+    padding: 0.5rem;
 }
+
+.contact .form .form-right :nth-child(4) {
+    height: 165px;
+    width: 335px;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+.contact .form .form-right button {
+    margin: 0;
+}
+
+
 
 
