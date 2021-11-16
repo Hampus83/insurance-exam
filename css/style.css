@@ -18,6 +18,31 @@ h1, h2 {
     font-family: 'Frank Ruhl Libre';
 }
 
+.content nav {
+    height: 70px;
+    grid-column: 2 / span 4;
+    grid-row: 3 / span 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.content nav a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4); 
+    width: fit-content;
+    margin: auto;
+}
+
+.content nav .nav-active {
+    color: #000000;
+}
+
+.content nav a:hover {
+    text-decoration: underline;
+}
+
 .content button {
     border: none;
     background-color: #ffffff;
@@ -118,32 +143,6 @@ h1, h2 {
     letter-spacing: 0.02em;
     margin-top: 0;
 }
-
-.home nav {
-    height: 70px;
-    grid-column: 2 / span 4;
-    grid-row: 3 / span 1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.home nav a {
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.4); 
-    width: fit-content;
-    margin: auto;
-}
-
-.home nav .nav-active {
-    color: #000000;
-}
-
-.home nav a:hover {
-    text-decoration: underline;
-}
-
 
 .home .main {
     height: 1300px;
