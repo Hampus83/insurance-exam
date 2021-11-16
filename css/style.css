@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Frank+Ruhl+Libre:wght@400;500;700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap%27');
 
 * {
     box-sizing: border-box;
@@ -54,7 +54,7 @@ h1, h2 {
     font-size: 45px;
     font-weight: 900;
     line-height: 45px;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
     margin: 0;
     padding: 4rem 5rem 0 7rem;
 }
@@ -143,6 +143,7 @@ h1, h2 {
     background-color: #A9A19E;
     grid-row: 4 / span 1;
     grid-column: 1 / span 6;
+    position: relative;
 }
 .content .main h1 {
     color: #fff;
@@ -183,27 +184,59 @@ h1, h2 {
     padding: 10% 25%;
 }
 
+.content .main .cards {
+    padding: 0 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+    bottom: 39%;
+}
+
 .content .main .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     width: 255px;
     height: 310px;
     background-color: #ffffff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 5px;
 }
 
-.content .main .card article {
+.content .main .cards .card figure {
     width: 235px;
     height: 150px;
+    position: absolute;
+    top: -45px;
+    border-radius: 4px;
 }
 
-.content .main .card .children-background {
+
+
+.content .main .cards .card p {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-top: -0.5rem;
+    margin-bottom: 40px;
+    padding: 0 1.3rem;
+}
+
+.content .main .cards .card .children-background {
     background-color: #C7DDEA;
 }
 
-.content .main .card .just-right-background {
+.content .main .cards .card .just-right-background {
     background-color: #fab131;
 }
 
-.content .main .card .old-fart-background {
+.content .main .cards .card .old-fart-background {
     background-color: #f17949;
 }
 
