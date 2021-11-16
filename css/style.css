@@ -39,6 +39,10 @@ h1, h2 {
     color: #000000;
 }
 
+.content nav .nav-active:hover {
+    text-decoration: none;
+}
+
 .content nav a:hover {
     text-decoration: underline;
 }
