@@ -174,14 +174,20 @@ h1, h2 {
     margin-top: 40px;
 }
 .content .main .top p {
+    font-size: 14px;
     margin-top: 40px;
+    line-height: 24px;
 }
 
 .content .main .bottom {
     height: 50%;
     background-color: #fab131;
     text-align: center;
-    padding: 10% 25%;
+    padding: 10% 28%;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.6);
 }
 
 .content .main .cards {
