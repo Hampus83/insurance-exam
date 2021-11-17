@@ -13,9 +13,9 @@ body {
     font-family: 'fira sans';
 }
 
-/*************
-    GENERAL 
-**************/
+/************
+    GLOBAL 
+*************/
 
 h1, h2 {
     font-family: 'Frank Ruhl Libre';
@@ -76,6 +76,7 @@ h1, h2 {
     HOME
  **********/
 
+/* FIRST SECTION */
 /* Covered */
 
 .home .covered {
@@ -160,7 +161,7 @@ h1, h2 {
 }
 
 
-/* Main section */
+/* MAIN SECTION */
 
 .home .main {
     height: 1300px;
@@ -274,7 +275,7 @@ h1, h2 {
     background-color: #f17949;
 }
 
-/* images */
+/* card images */
 .home .main .cards .card figure {
     width: 235px;
     height: 150px;
@@ -305,8 +306,9 @@ h1, h2 {
 }
 
 
-/* Last section
-    Tutorial     */
+/* LAST SECTION */
+/* Tutorial */
+
 .home .tutorial {
     background-color: #fff;
     height: 340px;
@@ -409,61 +411,18 @@ h1, h2 {
     right: 100px;
 }
 
+/* Menu */
 .contact nav {
     grid-column: 2 / span 4;
     grid-row: 2 / span 1;
 }
 
+/* Contact form */
 .contact .form {
     height: 545px;
     background-color: #A9A19E;
     grid-column: 1 / span 6;
     grid-row: 3;
-}
-
-.contact .location {
-    position: relative;
-    height: 405px;
-    grid-row: 4;
-    grid-column: 1 / span 6;
-    background-image: url("/assets/map-contact.png");
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact .location .card {
-    background-color: #FAB131;
-    position: absolute;
-    left: 9%;
-    top: 11%;
-    color: white;
-    width: 320px;
-    height: 205px;
-    padding: 10px;
-}
-.contact .location .card h1 {
-    font-weight: 900;
-    font-size: 45px;
-    margin: 0;
-    padding: auto;
-    text-align: center;
-}
-.contact .location .card p {
-    padding-left: 13px;
-    padding-right: 140px;
-    margin: 0;
-    line-height: 24px;
-}
-
-.contact footer {
-    background-color: #777574;
-    height: 340px;
-    grid-row: 5;
-    grid-column: 1 / span 6;
-}
-
-.contact .form {
     width: 100%;
     display: flex;
 }
@@ -516,6 +475,50 @@ h1, h2 {
 .contact .form .form-right button {
     margin: 30px 165px ;
     align-self: flex-end;
+}
+
+
+/* Location card */
+.contact .location {
+    position: relative;
+    height: 405px;
+    grid-row: 4;
+    grid-column: 1 / span 6;
+    background-image: url("/assets/map-contact.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .location .card {
+    background-color: #FAB131;
+    position: absolute;
+    left: 9%;
+    top: 11%;
+    color: white;
+    width: 320px;
+    height: 205px;
+    padding: 10px;
+}
+.contact .location .card h1 {
+    font-weight: 900;
+    font-size: 45px;
+    margin: 0;
+    padding: auto;
+    text-align: center;
+}
+.contact .location .card p {
+    padding-left: 13px;
+    padding-right: 140px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.contact footer {
+    background-color: #777574;
+    height: 340px;
+    grid-row: 5;
+    grid-column: 1 / span 6;
 }
 
 
