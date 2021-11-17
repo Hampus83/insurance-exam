@@ -316,7 +316,7 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 80px;
+    padding: 50px;
     position: relative;
 }
 
@@ -339,12 +339,16 @@ h1, h2 {
 .home .tutorial p {
     text-align: center;
     margin:0;
-    font-weight: 700;
+    font-weight: bold;
     color: rgba(0, 0, 0, 0.7);
 }
 
 .home .zero {
     background-color: #C7DDEA;
+}
+
+.home .one {
+    padding: 70px;
 }
 
 .home .two {
@@ -367,11 +371,11 @@ h1, h2 {
     height: 70px;
     text-align: center;
     line-height: 0;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .home footer .up img {
-    margin-bottom: -10px;
+    margin-top: 10px;
 }
 
 .home footer .up img, .home footer .up p {
