@@ -465,6 +465,8 @@ h1, h2, h3 {
     padding: 0.5rem;
     margin-top: -10px;
     margin-bottom: 15px;
+    border-radius: 3px;
+    border-width: 0;
 }
 
 .contact .form .form-right :nth-child(4) {
@@ -474,6 +476,8 @@ h1, h2, h3 {
     padding: 0.5rem;
     font-family: 'fira sans';
     margin-top: -10px;
+    border-radius: 3px;
+    border-width: 0;
 }
 
 .contact .form .form-right button {
